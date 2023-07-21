@@ -33,7 +33,7 @@ const Layout = () => {
 
     return (
         <div className="d-flex flex-column min-vh-100 max-vw-100">
-            
+           
             <BrowserRouter basename={basename}>
                 <ScrollToTop>
                     <Navbar />
